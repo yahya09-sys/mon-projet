@@ -1,0 +1,121 @@
+body {
+  background-image: url(background4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Style titre-contour */
+.titre-contour {
+  color: white;
+  font-weight: bold;
+  text-shadow:
+    -1px -1px 0 #5e4a2e,
+    1px -1px 0 #5e4a2e,
+    -1px 1px 0 #5e4a2e,
+    1px 1px 0 #5e4a2e;
+}
+.boxe-tr{background-color: rgba(247, 245, 245, 0.338);
+  border-radius: 10px;
+  padding: 10px;
+  width: 70%;
+  margin: 0px;
+  max-width: 800px 
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);}
+/* Style centrer */
+.centrer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content:center;
+  height: 80vh;
+}
+
+/* Bouton */
+button[type="submit"] {
+  background-color: #f08a00;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button[type="submit"]:hover {
+  background-color: #cc7300;
+}
+
+/* Police lobster */
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Autres styles */
+h2 {
+  font-size: 40px !important;
+}
+.element {
+  text-align: center;
+}
+
+/* radio-section */
+.radio-section p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Input email */
+input[type="email"] {
+  background-color: transparent;
+  border: 1px solid #f1e0ab;
+  color: rgb(4, 4, 4);
+  padding: 8px;
+  border-radius: 5px;
+  font-family: 'Birthstone', cursive;
+}
+
+/* Input text */
+input[type="text"] {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: rgb(15, 15, 15);
+  border: 1px solid white;
+  padding: 8px;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* Lobster regular2 */
+.lobster-regular2 {
+  font-family: 'Birthstone', cursive;
+  font-size: 24px;
+}
+
+/* Commentaire textarea */
+#commentaire {
+  width: 100%;
+  padding: 12px;
+  height: 150px;
+  font-size: 18px;
+  line-height: 1.5;
+  box-sizing: border-box;
+  resize: vertical;
+  border-radius: 5px;
+  border: 1px solid rgb(11, 11, 11);
+  background-color: rgba(142, 137, 137, 0.3);
+  color: rgb(5, 0, 0);
+  font-family: 'Birthstone', cursive;
+}
+
+/* Form row */
+.form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+}
+
